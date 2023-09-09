@@ -1,0 +1,14 @@
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\bin\Debug\net6.0\Karácsonyfa.exe
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\bin\Debug\net6.0\Karácsonyfa.deps.json
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\bin\Debug\net6.0\Karácsonyfa.runtimeconfig.json
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\bin\Debug\net6.0\Karácsonyfa.dll
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\bin\Debug\net6.0\Karácsonyfa.pdb
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.AssemblyInfo.cs
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.dll
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\refint\Karácsonyfa.dll
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.pdb
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\Karácsonyfa.genruntimeconfig.cache
+E:\Visual Studio\Repos\Karácsonyfa\Karácsonyfa\obj\Debug\net6.0\ref\Karácsonyfa.dll
