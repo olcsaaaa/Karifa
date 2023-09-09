@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-       static void MediumTree()
+        static void MediumTree()
         {
             // X:0 => Pos:16
             int x = 16;
@@ -10,15 +10,23 @@
             int width = 1;
             int cutBack = 2;
             int linesAfterCut = 0;
-            int maxWidth = 17;
+            int maxWidth = 15;
             int height = 0;
             Console.ForegroundColor = ConsoleColor.Green;
-            while(width<=maxWidth)
+            while (width <= maxWidth)
             {
                 Console.SetCursorPosition(x - height, height);
                 for (global::System.Int32 j = 0; j < width; j++)
                 {
-                    Console.Write("A");
+                    if (j == 0 || j + 1 == width)
+                    {
+                        Console.Write("A");
+                    }
+                    else
+                    {
+                        Console.Write("@");
+                    }
+
                 }
                 width += 2;
                 height++;
@@ -34,7 +42,7 @@
             Console.ForegroundColor = ConsoleColor.DarkGray;
             for (int i = 0; i < 2; i++)
             {
-                Console.SetCursorPosition(14,height+i);
+                Console.SetCursorPosition(14, height + i);
                 Console.Write("|||||");
             }
             Console.ForegroundColor = ConsoleColor.White;
