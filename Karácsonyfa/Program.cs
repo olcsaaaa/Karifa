@@ -33,10 +33,11 @@
                 linesAfterCut++;
                 if (linesAfterCut >= (cutBack + 1))
                 {
+                    cutBack += 2;
                     width -= cutBack;
                     linesAfterCut = 0;
                     x += (cutBack / 2);
-                    cutBack += 2;
+
                 }
             }
             Console.ForegroundColor = ConsoleColor.DarkGray;
