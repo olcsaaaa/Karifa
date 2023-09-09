@@ -31,7 +31,7 @@
                     cutBack += 2;
                 }
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkGray;
             for (int i = 0; i < 2; i++)
             {
                 Console.SetCursorPosition(14,height+i);
