@@ -2,6 +2,50 @@
 {
     internal class Program
     {
+        static void Colorful(int i, int j)
+        {
+            if (i % 2 == 0)
+            {
+                if (j % 2 == 0)
+                {
+                    return;
+                }
+            }
+            else
+            {
+                if (j % 2 != 0)
+                {
+                    return;
+                }
+            }
+
+            if (j < 5)
+            {
+                int d20 = new Random().Next(20);
+                switch (d20)
+                {
+                    case 0: Console.ForegroundColor = ConsoleColor.DarkYellow; break;
+                    case 1: Console.ForegroundColor = ConsoleColor.White; break;
+                    case 3: Console.ForegroundColor = ConsoleColor.DarkBlue; break;
+                    case 4: Console.ForegroundColor = ConsoleColor.Magenta; break;
+                    case 5: Console.ForegroundColor = ConsoleColor.White; break;
+                    case 6: Console.ForegroundColor = ConsoleColor.Red; break;
+                }
+            }
+            else
+            {
+                int d40 = new Random().Next(40);
+                switch (d40)
+                {
+                    case 0: Console.ForegroundColor = ConsoleColor.DarkYellow; break;
+                    case 1: Console.ForegroundColor = ConsoleColor.White; break;
+                    case 3: Console.ForegroundColor = ConsoleColor.DarkBlue; break;
+                    case 4: Console.ForegroundColor = ConsoleColor.Magenta; break;
+                    case 5: Console.ForegroundColor = ConsoleColor.White; break;
+                    case 6: Console.ForegroundColor = ConsoleColor.Red; break;
+                }
+            }
+        }
         static void MediumTree()
         {
             // X:0 => Pos:16
@@ -18,7 +62,18 @@
                 Console.SetCursorPosition(x - height, height);
                 for (global::System.Int32 j = 0; j < width; j++)
                 {
-                    Console.Write("A");
+                    if (j == 0 || j + 1 == width)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write("A");
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Colorful(height, j);
+                        Console.Write("@");
+                    }
+
                 }
                 width += 2;
                 height++;
@@ -32,7 +87,7 @@
 
                 }
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkGray;
             for (int i = 0; i < 2; i++)
             {
                 Console.SetCursorPosition(14, height + i);
